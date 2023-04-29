@@ -24,26 +24,26 @@ public class chap1_8 {
         System.out.println("1부터 " + n + "까지의 합은" + sum + "입니다.");
 
 
-////        //sumof
-////        int a = 1, b = 10;
-////        sumof(a, b);
-////        System.out.println("Sum of " + a + " to " + b + " is " + sum);
-//    }
-//
-//
-//
-////    //연습문제
-////    public static void sumof(int a , int b) {
-////
-////        a = 1;
-////        b = 9;
-////        int sum = 0;
-////
-////        for (int i = a; i <= b; i++) {
-////            sum += 1;
-////        }
-////
-////    }
+        //sumof
+        int a = 1, b = 10;
+        sumof(a, b);
+        System.out.println("Sum of " + a + " to " + b + " is " + sum);
+    }
+
+
+
+    //연습문제
+    public static void sumof(int a , int b) {
+
+        a = 1;
+        b = 9;
+        int sum = 0;
+
+        for (int i = a; i <= b; i++) {
+            sum += 1;
+        }
+
+    }
 
 
 }
