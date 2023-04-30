@@ -2,7 +2,7 @@ package com.example.algorithm.chapter01;
 
 import java.util.Scanner;
 
-public class chap1_9 {
+public class chap1_10 {
 
 
     public static void main(String[] args) {
@@ -18,12 +18,21 @@ public class chap1_9 {
             n = stdIn.nextInt();
         } while (n <= 0);
 
-        int sum = 0;
+        int sum = 0; // 합
+
 
         for (int i = 1; i <= n; i++){
-            sum += i;
-        }
+            if ( i < n){ //중간과정
+                System.out.print(i + " + ");
+            } else { // 마지막 과정
+                System.out.print(i + " + ");
+            }
+            sum += i; // sum에 i를 더함
 
+        }
+        System.out.print(sum);
+
+        System.out.println("================");
         System.out.println("1부터 " + n + "까지의 합은 " + sum +" 입니다.");
 
 
